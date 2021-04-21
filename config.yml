@@ -23,23 +23,23 @@ before:
 # Create one step for each action that a learner will complete
 
 steps:
-# Step 1: EDIT HERE - INTERNAL COMMENT DESCRIBING STEP 
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
+Open the book
+Open book
+  Turn the front cover open.
   event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+Turn to page 1
+Advance in the book
+Continue turning pages in the same manner as you did the front cover.
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 3: EDIT HERE - INTERNAL COMMENT FOR STEP 3
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+Begin to read the manual
+Read the manual
+Begin reading at the top of page 1 and continue through the end of the book.
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
